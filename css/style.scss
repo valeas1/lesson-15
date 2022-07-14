@@ -62,7 +62,7 @@
      text-decoration: none;
      background-color: #292F36;;
      border-radius: 18px;
-     padding: 22px 72px 22px 34px; 
+     padding: 22px 81px 22px 34px; 
      background-image: url(../img/btn-arrow.svg);
      background-repeat: no-repeat;
      background-position: right 22px center;
@@ -92,8 +92,8 @@
      display: flex;
      justify-content: space-between;
      align-items: center;
-     padding-top: 34px;
-     padding-bottom: 38px;
+     padding-top: 26px;
+     padding-bottom: 24px;
      &__menu{
           &-link {
                font-size: 19px;
@@ -109,6 +109,8 @@
      }
 }
 .dream-wrap {
+     max-width: 1440px;
+     margin: 0 auto;
      background-image: url(../img/dream-bg.jpg);
      background-repeat: no-repeat;
      background-position: center top;
@@ -135,6 +137,7 @@
 }
 .design {
      padding-top: 105px;
+     padding-bottom: 31px;
      &__grid {
           display: flex;
           list-style: none;
@@ -209,7 +212,7 @@
           font-size: 22px;
           line-height: 33px;
           letter-spacing: 0.22px;
-          margin-bottom: 30px;
+          margin-bottom: 38px;
      }
      &__call-link {
           font-size: 22px;
@@ -261,13 +264,14 @@
                width: 33.333%;
                padding: 0 8.5px;
                &-card {
+                    height: 100%;
                     background: #FFFFFF;
                     border-radius: 30px;
                     padding: 55px 35px 45px 35px;
                     &-top {
                          display: flex;
                          align-items: center;
-                         margin-bottom: 32px;
+                         margin-bottom: 23px;
                     }
                     &-img {
                          border-radius: 100px;
@@ -304,7 +308,7 @@
      flex-direction: column;
      align-items: center;
      padding-top: 13px;
-     padding-bottom: 140px;
+     padding-bottom: 93px;
      &__title {
           font-size: 47px;
           line-height: 62px;
@@ -318,7 +322,7 @@
           line-height: 33px;
           text-align: center;
           letter-spacing: 0.22px;
-          margin-bottom: 70px;
+          margin-bottom: 63px;
      }
      &__grid {
           align-self: stretch;
@@ -328,6 +332,7 @@
           &-item {
                width: 50%;
                padding: 10px;
+               margin-bottom: 38px;
           }
           &-card {
                display: flex;
@@ -355,8 +360,8 @@
      background: #F4F0EC;
 }
 .numbers {
-     padding-top: 140px;
-     padding-bottom: 140px;
+     padding-top: 104px;
+     padding-bottom: 130px;
      &__list {
           display: flex;
           justify-content: center;
@@ -369,6 +374,7 @@
                     line-height: 128px;
                     letter-spacing: 1.7px;
                     color: #CDA274;
+                    margin-bottom: 11px;
                }
                &-text {
                     font-size: 22px;
@@ -386,7 +392,7 @@
      display: flex;
      flex-direction: column;
      align-items: center;
-     padding-top: 130px;
+     padding-top: 142px;
      padding-bottom: 40px;
      &__title {
           font-size: 48px;
@@ -401,7 +407,7 @@
           letter-spacing: 0.22px;
           text-align: center;
           align-self: center;
-          margin-bottom: 70px;
+          margin-bottom: 51px;
      }
      &__wrap {
           width: 33.333%;
@@ -413,6 +419,7 @@
           flex-wrap: wrap;
           margin: 0 -10px;
           &-card {
+               height: 100%;
                position: relative;
                display: flex;
                flex-wrap: wrap;
@@ -430,7 +437,7 @@
                     font-size: 25px;
                     line-height: 35px;
                     letter-spacing: 0.5px;
-                    margin-bottom: 15px;
+                    margin-bottom: 22px;
                }
                &-text {
                     font-size: 16px;
@@ -445,14 +452,13 @@
                     background: #FFFFFF;
                     border-radius: 8px 8px 8px 0px;
                     padding: 10px;
-                    top: 244px;
                     left: 45px;
                }
           }
      }
 }
 .join-wrap {
-     padding-top: 81px;
+     padding-top: 79px;
      padding-bottom: 80px;
 }
 .join {
@@ -460,7 +466,7 @@
      flex-direction: column;
      align-items: center;
      padding-top: 100px;
-     padding-bottom: 85px;
+     padding-bottom: 92px;
      background: #292F36;
      border-radius: 70px;
      &__title {
@@ -490,7 +496,7 @@
      }
 }
 .footer {
-     padding-top: 58px;
+     padding-top: 51px;
      &__first-bar {
           display: flex;
           padding-bottom: 80px;
@@ -500,7 +506,7 @@
           display: flex;
           flex-direction: column;
           &-logo {
-               margin-bottom: 23px;
+               margin-bottom: 9px;
           }
           &-text {
                font-size: 22px;
